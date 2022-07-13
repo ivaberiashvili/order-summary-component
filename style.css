@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #e0e8ff;
+  background-image: url(https://cdn.glitch.global/64b21f1e-e754-4344-9870-3b9de7939b14/pattern-background-desktop.svg?v=1655831221364);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  overflow: hidden;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+.card {
+  width: 327px;
+  min-width:290px;
+  height: 567px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 40px 40px rgba(13, 48, 189, 0.1518);
+  text-align: center;
+}
+.card-img {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.rest {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.header {
+  font-size: 22px;
+  font-weight: 900;
+  color: #1f2e55;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+.description {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #717fa6;
+  padding: 0px 8px 24px 8px;
+}
+.basket {
+  background: #f7f9ff;
+  border-radius: 11px;
+  box-sizing: border-box;
+  padding: 17px 16px 17px 16px;
+  display: flex;
+  margin-bottom: 24px;
+}
+.basket-text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}
+.price-cont {
+  font-size: 14px;
+}
+.plan {
+  font-weight: 900;
+  color: #1f2e55;
+}
+.price {
+  font-weight: 500;
+  color: #717fa6;
+}
+a {
+  text-decoration: none;
+}
+.change-fn {
+  font-size: 13px;
+  font-weight: 900;
+  color: #382ae1;
+}
+.change-fn:hover {
+  color: #766cf1;
+}
+.pay-button {
+  border: none;
+  font-size: 15px;
+  font-weight: 900;
+  background: #382ae1;
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  border-radius: 11px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.1903);
+  margin-bottom: 24px;
+}
+.button-text {
+  color: #ffffff;
+}
+.pay-button:hover {
+  background: #766cf1;
+}
+.cancel {
+  color: #717fa6;
+  font-weight: 900;
+  font-size: 15px;
+}
+.cancel:hover {
+  color: #1f2e55;
+}
+
+@media (min-width: 480px) {
+  .card {
+    width: 450px;
+    height: 697px;  
+  }
+  .rest {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .header {
+    font-size: 28px;
+    padding-top: 45px;
+    padding-bottom: 17px;
+  }
+  .description {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 20px;
+  }
+  .basket {
+    padding: 25px 24px 25px 24px;
+    margin-bottom: 32px;
+  }
+  .change-fn {
+    font-size: 14px;
+  }
+  .pay-button {
+    margin-bottom: 32px;
+  }
+}
